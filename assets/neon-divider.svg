@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-labelledby="title">
+  <title id="title">Code · Design · Ideas</title>
+  <defs>
+    <linearGradient id="line"><stop stop-color="#090e1c"/><stop offset=".4" stop-color="#9166f6"/><stop offset=".6" stop-color="#65dfe8"/><stop offset="1" stop-color="#090e1c"/></linearGradient>
+    <style>
+      .spark { animation: drift 8s ease-in-out infinite alternate; }
+      @keyframes drift { from { transform: translateX(-290px); opacity: .2; } to { transform: translateX(290px); opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .spark { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1200" height="80" rx="14" fill="#090e1c"/>
+  <path d="M40 40H425M775 40H1160" stroke="url(#line)"/>
+  <circle class="spark" cx="325" cy="40" r="2" fill="#a788ff"/>
+  <circle class="spark" cx="875" cy="40" r="2" fill="#65dfe8"/>
+  <text x="600" y="45" text-anchor="middle" font-family="Consolas,monospace" font-size="14" letter-spacing="6" fill="#c6c7ec">CODE · DESIGN · IDEAS</text>
+</svg>
